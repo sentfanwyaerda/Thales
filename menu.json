@@ -1,0 +1,44 @@
+[
+	{"text":"MAIN NAVIGATION","class":"header"},
+	{"text":"Dashboard","icon":"fa-dashboard","items":[
+		{"text":"Dashboard v1","url":"../../index.html"},
+		{"text":"Dashboard v2","url":"../../index2.html"}
+	]},
+	{"text":"Layout Options","icon":"fa-files-o","notice":{"class":"label-primary","text":"4"},"items":[
+		{"text":"Top Navigation","url":"../layout/top-nav.html"},
+		{"text":"Boxed","url":"../layout/boxed.html"},
+		{"text":"Fixed","url":"../layout/fixed.html"},
+		{"text":"Collapsed Sidebar","url":"../layout/collapsed-sidebar.html"}
+	]},
+	{"text":"Widgets","icon":"fa-th","url":"../widgets.html","notice":{"class":"bg-green","text":"Hot"}},
+	{"text":"Charts","icon":"fa-pie-chart","items":[
+		{"text":"Morris","url":"../charts/morris.html"},
+		{"text":"Flot","url":"../charts/flot.html"},
+		{"text":"Inline charts","url":"../charts/inline.html"}
+	]},
+	{"text":"UI Elements","icon":"fa-laptop","items":[
+		{"text":"General","url":"../UI/general.html"}
+	]},
+	{"text":"Forms","icon":"fa-edit","items":[
+		{"text":"General Elements","url":"../forms/general.html"},
+		{"text":"Advanced Elements","url":"../forms/advanced.html"},
+		{"text":"Editors","url":"../forms/editors.html"}
+	]},
+	{"text":"Tables","icon":"fa-table","items":[]},
+	{"text":"Calendar","icon":"fa-calendar","notice":{"class":"bg-red","text":"3","tag":"small"},"url":"#"},
+	{"text":"Mailbox","icon":"fa-envelope","url":"#","notice":{"class":"bg-yellow","text":"12","tag":"small"}},
+	{"text":"Multilevel","icon":"fa-share","items":[
+		{"text":"Level One","active":"open","url":"#"},
+		{"text":"Level One","active":"open","items":[
+			{"text":"Level Two","items":[
+				{"text":"Level Three","url":"#"},
+				{"text":"Level Three","active":"open","url":"#"}
+			]}
+		]},
+		{"text":"Level One","active":"open","url":"#"}
+	]},
+	{"text":"LABELS","class":"header"},
+	{"text":"Important","icon":"fa-circle-o text-danger","url":"#"},
+	{"text":"Warning","icon":"fa-circle-o text-warning","url":"#"},
+	{"text":"Information","icon":"fa-circle-o text-info","url":"#"}
+]

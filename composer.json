@@ -1,0 +1,8 @@
+{
+	"name": "sentfanwyaerda/Thales",
+	"description": "",
+	"require": {
+		"php": ">=5.1",
+		"sentfanwyaerda/Morpheus": ">=0.0"
+	}
+}
